@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.myrecipeapp"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.myrecipeapp"
@@ -52,7 +52,7 @@ android {
 dependencies {
 
     // Compose ViewModel
-    implementation("androidx.lifecycle:lifecycle-viewmodel-android:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
 
     // Network calls
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
